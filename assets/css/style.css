@@ -3,7 +3,7 @@ body {
     font-size: 18px;
     line-height: 34px;
     color: #777777;
-    background: url("../images/concrete_seamless.png");
+    background: url(../images/oriental.png);
   }
   
   * {
@@ -215,3 +215,9 @@ body {
     background: #4aaaa5;
     border: 0 none;
   }
+
+  @media screen and (min-width: 760px) {
+    body {
+        background-color: #ffff;
+    }
+}
